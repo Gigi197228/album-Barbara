@@ -1,0 +1,18 @@
+header ul {
+    
+    list-style-type: none; /* Enlève les puces */
+    margin: 40px;
+    margin-top: 40px;
+               
+    
+    /* Activation de Flexbox pour centrer */
+    display: flex;
+    justify-content: flex-end; /* Centre à droite */
+    gap: 70px;               /* Gère l'espace entre chaque lien (ex: 20px) */
+}
+
+main h1, main h2{
+   display: flex;
+    justify-content: center; /* Centre horizontalement */ 
+}
+
